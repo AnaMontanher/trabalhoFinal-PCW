@@ -1,0 +1,46 @@
+*{box-sizing: border-box; 
+    border: 1px solid black;    
+}
+
+body {
+
+}
+header, nav, main, footer {
+    display: flex;
+    background-color: grey;
+    border: 1px solid black; 
+    margin: 3px;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 100vw;
+    height: 120px;
+}
+
+nav {
+    flex: 1 1 200px;
+    justify-content:space-around;
+    align-items: center;
+    height: 50px;
+}
+
+main {
+    flex: 20 1 500px;
+    flex-direction: column;
+    height: calc(100vh - 296px);    
+}
+div{
+    display: flex;
+    border: 1px solid black;    
+    height: 300px;
+}
+
+img{
+    height: 150px;
+}
+footer {
+    flex: 1 1 100vw;
+    height: 100px;
+}
