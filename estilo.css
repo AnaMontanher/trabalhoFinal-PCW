@@ -22,12 +22,18 @@ header {
     align-items: center;
     flex: 1 1 100vw;
     height: 100px;
+    background-image: linear-gradient(180deg, #110559, #0f0f0f);
+}
+header p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 70px;
     letter-spacing: 4px;
     color: #f23869;
     text-shadow: 3px 4px 2px #f1f1f185;
-    background-image: linear-gradient(180deg, #110559, #0f0f0f);
+    display: inline-block;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
 }
 
 nav {
@@ -66,7 +72,7 @@ a {
 }
 
 h3 {
-    text-align: center;    
+    text-align: center;
     border: 0px;
     margin: 08px;
 }
@@ -74,8 +80,8 @@ h3 {
 main {
     flex: 20 1 500px;
     flex-direction: column;
-    height: calc(100vh - 246px);
-    padding: 0px 20px 0;
+    height: calc(100vh - 166px);
+    padding: 0px 20px;
 }
 
 div {
@@ -90,12 +96,27 @@ p {
     margin: 0px;
     text-align: center;
 }
+
 .text {
     flex-direction: column;
-    font-size: 24px;
+    font-size: 35px;
     margin: 0 auto;
+    color: #02011d;
     padding: 0px 60px 30px 50px;
     overflow: hidden;
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 0px;
+}
+span{
+    font-size: 40px;
+    color: #f0e7ea;
+    background-clip: unset;
+    background: -webkit-linear-gradient(#f12058, #030226);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 400;
 }
 
 section {
@@ -103,6 +124,19 @@ section {
     margin: 10px;
     border-radius: 15px;
     background-color: rgba(233, 140, 171, 0.466);
+}
+
+#linkImagem {
+    width: 90vw;
+    height: 180px;
+    position: absolute;
+    padding: 0;
+    border: unset;
+}
+
+#linkImagem:hover {
+    opacity: 0;
+    transition: none;
 }
 
 img {
