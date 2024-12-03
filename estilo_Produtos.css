@@ -31,6 +31,10 @@ header p {
     letter-spacing: 4px;
     color: #f23869;
     text-shadow: 3px 4px 2px #f1f1f185;
+    display: inline-block;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
 }
 
 nav {
@@ -76,7 +80,7 @@ h3 {
 main {
     flex: 20 1 500px;
     flex-direction: column;
-    height: calc(100vh - 246px);
+    height: calc(100vh - 166px);
     padding: 0px 20px 0;
 }
 
@@ -85,6 +89,7 @@ main {
     position: relative;
     font-size: 16px;
     padding: 10px 1px 10px 1px;
+    border-radius: 4px;
     background-color: rgb(240, 207, 218);
     border: 2px solid rgb(83, 82, 82);
 }
@@ -104,7 +109,7 @@ div {
 
 h4 {
     margin: 10px auto;
-    padding:5px;
+    padding: 5px;
     text-align: center;
     width: 100%;
     background-color: #ca7d7d;
@@ -134,8 +139,20 @@ div.camada:hover {
     transition: 0.5;
 }
 
+div.camada a {
+    height: 100%;
+    padding-top: 125px;
+
+}
+
 div.camada a:hover {
+    color: #ca7d7d;
+    transition: 0.5
+}
+
+div.camada a:active {
     color: #f8f8f8;
+    transition: 0.2s;
 }
 
 section {
