@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 
@@ -10,10 +11,8 @@ body {
 
 header,
 nav,
-main,
-footer {
+main {
     display: flex;
-    background-color: rgb(87, 76, 85);
     margin: 0px;
 }
 
@@ -82,6 +81,7 @@ main {
     flex-direction: column;
     height: calc(100vh - 166px);
     padding: 0px 20px;
+    background-color: rgb(165, 148, 162);
 }
 
 div {
@@ -123,8 +123,10 @@ section {
     display: flex;
     margin: 10px;
     border-radius: 15px;
-    background-color: rgba(233, 140, 171, 0.466);
-}
+    height: calc(100vh - 608px);
+    background-color: rgba(226, 179, 195, 0.753);
+    align-items: center;
+    overflow: hidden;}
 
 #linkImagem {
     width: 90vw;
