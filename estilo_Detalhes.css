@@ -4,15 +4,12 @@
 
 body {
     font-family: helvetica;
-
 }
 
 header,
 nav,
-main,
-footer {
+main {
     display: flex;
-    background-color: rgb(87, 76, 85);
     margin: 0px;
 }
 
@@ -82,13 +79,7 @@ main {
     flex-direction: column;
     height: calc(100vh - 166px);
     padding: 0px 20px 0;
-}
-
-.top {
-    font-size: 16px;
-    padding: 10px 1px;
-    background-color: rgb(240, 207, 218);
-    border: 2px solid rgb(83, 82, 82);
+    background-color: rgb(165, 148, 162);
 }
 
 
@@ -99,53 +90,74 @@ section {
     margin: 10px;
     border-radius: 10px;
     background-color: rgb(240, 207, 218);
-    border: 1px solid black;
     padding: 25px;
-}
-div{
-    display: flex;
-    border: 1px solid black;
+    height: calc(100vh - 408px);
+    overflow: hidden;
+    align-items: flex-start;
 }
 
-.box {
+div {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: rgba(199, 152, 168, 0.87);
-    height: 300px;
-    width: 190px;
-    border: 2px solid #f23869;
-    border-radius: 8px;
-    margin-top: 30px;
 }
 
 img {
-    height: 300px;
-    width: 300px;
-    margin: 8px auto;
-    border-radius: 2px;
+    height: 350px;
+    width: 350px;
+    margin: 0px auto;
+    border-radius: 8px;
+    box-shadow: 3px 2px 4px #030226;
 }
-#imagemProduto{
+
+#imagemProduto {
     display: flex;
     flex-direction: column;
+padding-top: 25px;
 }
-#descricao{
+
+#descricao {
     display: flex;
     width: calc(100vw - 850px);
     flex-direction: column;
-    background-color:#f0e7ea;
+    background-color: #f0e7ea;
     border-radius: 8px;
     font-size: 20px;
     align-items: center;
     overflow: hidden;
+    padding: 25px;
 }
-li{margin-top: 10px;}
 
-p{
-    padding:0;
+li {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #eeb1b1;;
+    color: #0F0F0F;
+    line-height: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #ca7d7dda;
+}
+
+p {
+    padding: 0;
     margin: 0;
 }
 
+span {
+    color: #c51212;
+    font-weight: bold; 
+}
+#clique {
+    color:#000000;
+}
+#sublinhado{
+    text-decoration: line-through;
+}
 footer {
     flex: 1 1 100vw;
     height: 80px;
