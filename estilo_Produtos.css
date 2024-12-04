@@ -9,10 +9,8 @@ body {
 
 header,
 nav,
-main,
-footer {
+main {
     display: flex;
-    background-color: rgb(87, 76, 85);
     margin: 0px;
 }
 
@@ -82,6 +80,7 @@ main {
     flex-direction: column;
     height: calc(100vh - 166px);
     padding: 0px 20px 0;
+    background-color: rgb(165, 148, 162);
 }
 
 .top {
@@ -91,7 +90,7 @@ main {
     padding: 10px 1px 10px 1px;
     border-radius: 4px;
     background-color: rgb(240, 207, 218);
-    border: 2px solid rgb(83, 82, 82);
+    border: 1px solid rgb(83, 82, 82);
 }
 
 label {
@@ -112,7 +111,7 @@ h4 {
     padding: 5px;
     text-align: center;
     width: 100%;
-    background-color: #ca7d7d;
+    background-color: #e0a4c096;
 }
 
 button:hover {
@@ -126,7 +125,7 @@ div.camada {
     position: absolute;
     top: 269px;
     border-radius: 8px;
-    background-color: rgba(92, 72, 79, 0.87);
+    background-color: rgba(92, 72, 79, 0.747);
     color: #f0e7ea;
     text-shadow: 1px 1px 1px #0f0508;
     justify-content: center;
@@ -162,13 +161,13 @@ section {
 }
 
 .precoAntigo {
-    color: #f32a2a;
+    color: #c51212;;
     font-weight: 700;
     text-decoration: line-through;
 }
 
 .preco {
-    color: #f32a2a;
+    color: #c51212;
     font-weight: 1000;
     font-size: 20px;
 }
@@ -177,10 +176,10 @@ section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: rgba(199, 152, 168, 0.87);
+    background-color: rgba(214, 193, 200, 0.993);
     height: 300px;
     width: 190px;
-    border: 2px solid #f23869;
+    border: 1px solid #d46482;
     border-radius: 8px;
     margin-top: 30px;
 }
