@@ -124,6 +124,7 @@ section {
     margin: 10px;
     border-radius: 15px;
     height: calc(100vh - 608px);
+    min-height: 170px;
     background-color: rgba(226, 179, 195, 0.753);
     align-items: center;
     overflow: hidden;}
@@ -158,9 +159,4 @@ img {
     margin: 0 auto;
     padding-left: 80px;
 
-}
-
-footer {
-    flex: 1 1 100vw;
-    height: 80px;
 }
