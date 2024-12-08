@@ -7,51 +7,84 @@
     <title>Portfólio - ANA</title>
     <link rel="stylesheet" type="text/css" href="estilo_Portfolio.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Flamenco:wght@300;400&family=Glegoo&family=Scope+One&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
     <nav id="navbar">
-        <p id="icone">icone</p>
+        <div id="icone">
+            <img src="letter-a.png" alt="icone" />
+            <p>AnaHira</p>
+        </div>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a name="home">Home</a></li>
             <li><a href="#about">Sobre mim</a></li>
-            <li><a href="#service">Serviços</a></li>
+            <li><a href="#service">Projetos</a></li>
             <li><a href="#contact">Contato</a></li>
         </ul>
     </nav>
     <main>
         <section id="home">
-            <div class="perfil"></div>
-            <h1>Eu sou Ana Hiraiwa</h1> <br />
-            <h2>Desenvolvedora Web</h2>
-            <img src="minhafoto.png" alt="minhafoto"/>
+            <div class="perfil">
+                <h1>Eu sou Ana Hiraiwa</h1>
+                <h2>Desenvolvedora Web</h2>
+                <img src="minhafoto.png" alt="minhafoto" />
+            </div>
         </section>
         <section id="social">
             <ul>
-                <li><a href="" class="fa fa-linkedin"> LinkedIn</a></li>
-                <li><a href="" class="fa fa-instagram"> Instagram</a></li>
-                <li><a href="" class="fa fa-facebook"> Facebook</a></li>
-                <li><a href="" class="fa fa-github"> Github</a></li>
+                <li><a href="https://www.linkedin.com/in/ana-paula-hiraiwa-montanher-936796211/" target="_blank"
+                        class="fa fa-linkedin"> LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/anaphmontanher/" target="_blank" class="fa fa-instagram">
+                        Instagram</a></li>
+                <li><a href="https://www.facebook.com/ana.hiraiwa?locale=pt_BR" target="_blank" class="fa fa-facebook">
+                        Facebook</a></li>
+                <li><a href="https://github.com/AnaMontanher" target="_blank" class="fa fa-github"> Github</a></li>
             </ul>
         </section>
         <section id="about">
-            <a name="about"></a>
-            <h2>Sobre Mim</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error consequuntur fugit minima, aliquam quae,
-                maiores rem similique tempora harum quia explicabo dolore consequatur nam, sequi corrupti quaerat.
-                Necessitatibus, eius rem.</p>
+            <div class="titulo">
+                <h2>Sobre Mim</h2>
+            </div>
+            <p>Sou formada em Licenciatura em Matemática e desde sempre amo desafios e resolver problemas. <br />
+                Ingressei no curso de ADS e descobri novos interesses e despertei minha criatividade.<br /> Sou jogadora
+                de vôlei nas horas livres.
+                <a name="about"></a>
+            </p>
         </section>
         <hr>
         <section id="service">
-            <a name="service"></a>
-            <h2>Serviços</h2>
-
+            <div class="titulo">
+                <h2>Projetos</h2>
+            </div>
+            <div id="projetos">
+                <p>Meus últimos projetos:</p>
+                <a href="https://formulariomaratona.netlify.app" target="_blank"><img src="formulario.png"
+                        alt="formulario" /></a>
+                <a href="home.html" target="_blank"><img src="classificado.png" alt="classificado" /></a>
+                <a name="projetos"></a>
+            </div>
         </section>
         <hr>
         <section id="contato">
-            <a name="contact"></a>
-            <h2>Contato<h2>
+            <div class="titulo">
+                <h2>Contato<h2>
+            </div>
+            <div class="contato">
+                <p>Se interessou? </p>
+                <button><a href="mailto:hhiraiwa1@hotmail.com">Me mande um oi!</a></button>
+                <a name="contact"></a>
+            </div>
         </section>
+        <div id="upbutton">
+            <button>
+                <a href="#home"><img src="up-arrow (1).png" alt="up" /></a>
+            </button>
+        </div>
     </main>
 </body>
 
